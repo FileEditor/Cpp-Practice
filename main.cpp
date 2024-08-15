@@ -21,7 +21,9 @@ public:
         this->width=other.width;
         strcpy(this->type,other.type);
     }
-    ~Image(){}
+    ~Image() {
+
+    }
 };
 int main() {
     cout << "test" << endl;

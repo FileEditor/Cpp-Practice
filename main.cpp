@@ -21,6 +21,26 @@ public:
         this->width=other.width;
         strcpy(this->type,other.type);
     }
+    Image& operator=(const Image& other) {
+        if (this != &other) {
+            return *this;
+        }
+        this->height=other.height;
+        this->width=other.width;
+        strcpy(this->type,other.type);
+        return *this;
+    }
+    int getHeight() {
+        return this->height;
+    }
+    int getWidth() {
+        return this->width;
+    }
+    char getType() {}
+    void setType(char *type) {
+        strcpy(this->type,type);
+    }
+
     ~Image() {
 
     }

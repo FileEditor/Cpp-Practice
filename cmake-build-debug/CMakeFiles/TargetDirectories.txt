@@ -1,0 +1,3 @@
+C:/Users/Dragan/CLionProjects/vezbi/cmake-build-debug/CMakeFiles/vezbi.dir
+C:/Users/Dragan/CLionProjects/vezbi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Dragan/CLionProjects/vezbi/cmake-build-debug/CMakeFiles/rebuild_cache.dir

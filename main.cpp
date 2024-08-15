@@ -76,7 +76,7 @@ class TransparentImage : public Image {
         this->size=other.size;
     }
     int getSize(int s) {
-        return (Image::height*Image::width)+s;
+        return (1*2)+s;
     }
 
     ~TransparentImage() {}
@@ -97,6 +97,6 @@ int main() {
     cin >> name;
     t1.setName(name);
     cout << t1.getName() << t1.getType() << endl;
-
+    cout << t1.getSize(1) << endl;
     return 0;
 }

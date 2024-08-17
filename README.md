@@ -1,2 +1,2 @@
 Tracker for how much i study C++ :-)
-#0969DA
+![img](https://brandslogos.com/wp-content/uploads/thumbs/aphex-twin-logo-vector.svg)

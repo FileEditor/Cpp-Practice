@@ -1,3 +1,4 @@
 C:/Users/Dragan/CLionProjects/Cpp-Practice/cmake-build-debug/CMakeFiles/vezbi.dir
+C:/Users/Dragan/CLionProjects/Cpp-Practice/cmake-build-debug/CMakeFiles/vezbi2.dir
 C:/Users/Dragan/CLionProjects/Cpp-Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Dragan/CLionProjects/Cpp-Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

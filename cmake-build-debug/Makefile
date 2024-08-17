@@ -128,6 +128,43 @@ vezbi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vezbi.dir\build.make CMakeFiles/vezbi.dir/build
 .PHONY : vezbi/fast
 
+#=============================================================================
+# Target rules for targets named vezbi2
+
+# Build rule for target.
+vezbi2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vezbi2
+.PHONY : vezbi2
+
+# fast build rule for target.
+vezbi2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vezbi2.dir\build.make CMakeFiles/vezbi2.dir/build
+.PHONY : vezbi2/fast
+
+Vezba2.obj: Vezba2.cpp.obj
+.PHONY : Vezba2.obj
+
+# target to build an object file
+Vezba2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vezbi2.dir\build.make CMakeFiles/vezbi2.dir/Vezba2.cpp.obj
+.PHONY : Vezba2.cpp.obj
+
+Vezba2.i: Vezba2.cpp.i
+.PHONY : Vezba2.i
+
+# target to preprocess a source file
+Vezba2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vezbi2.dir\build.make CMakeFiles/vezbi2.dir/Vezba2.cpp.i
+.PHONY : Vezba2.cpp.i
+
+Vezba2.s: Vezba2.cpp.s
+.PHONY : Vezba2.s
+
+# target to generate assembly for a file
+Vezba2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vezbi2.dir\build.make CMakeFiles/vezbi2.dir/Vezba2.cpp.s
+.PHONY : Vezba2.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +198,10 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... vezbi
+	@echo ... vezbi2
+	@echo ... Vezba2.obj
+	@echo ... Vezba2.i
+	@echo ... Vezba2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

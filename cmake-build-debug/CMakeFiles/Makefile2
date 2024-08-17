@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = C:\Users\Dragan\CLionProjects\Cpp-Practice\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/vezbi.dir/all
+all: CMakeFiles/vezbi2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,6 +72,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/vezbi.dir/clean
+clean: CMakeFiles/vezbi2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -98,6 +100,32 @@ vezbi: CMakeFiles/vezbi.dir/rule
 CMakeFiles/vezbi.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vezbi.dir\build.make CMakeFiles/vezbi.dir/clean
 .PHONY : CMakeFiles/vezbi.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/vezbi2.dir
+
+# All Build rule for target.
+CMakeFiles/vezbi2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vezbi2.dir\build.make CMakeFiles/vezbi2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vezbi2.dir\build.make CMakeFiles/vezbi2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Dragan\CLionProjects\Cpp-Practice\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target vezbi2"
+.PHONY : CMakeFiles/vezbi2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/vezbi2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Dragan\CLionProjects\Cpp-Practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/vezbi2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Dragan\CLionProjects\Cpp-Practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/vezbi2.dir/rule
+
+# Convenience name for target.
+vezbi2: CMakeFiles/vezbi2.dir/rule
+.PHONY : vezbi2
+
+# clean rule for target.
+CMakeFiles/vezbi2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vezbi2.dir\build.make CMakeFiles/vezbi2.dir/clean
+.PHONY : CMakeFiles/vezbi2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

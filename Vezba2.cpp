@@ -85,6 +85,20 @@ protected:
     }
     ~FlatPizza(){}
 };
+class Test {
+protected:
+    int a,b,c;
+public:
+    Test() {
+        a=b=c=0;
+    }
+    Test(int a, int b, int c) {
+        this->a=a;
+        this->b=b;
+        this->c=c;
+
+    }
+};
 
 int main() {
     cout << "Hello World!" << endl;
